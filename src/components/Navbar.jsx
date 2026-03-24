@@ -84,8 +84,25 @@ const styles = `
     transition: padding 0.4s ease;
   }
 
-  .nb.scrolled .nb-inner {
-    padding: 18px 52px;
+  .nb-logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: 0.15em;
+    color: var(--brown);
+    text-decoration: none;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1001;
+    transition: font-size 0.4s;
+  }
+
+  @media (min-width: 901px) {
+    .nb.scrolled .nb-inner {
+      padding: 8px 52px;
+    }
+    .nb.scrolled .nb-logo {
+      font-size: 1rem;
+    }
   }
 
   /* ---- LOGO ---- */
