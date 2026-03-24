@@ -382,8 +382,8 @@ const ArrowIcon = ({ color = "var(--brown)" }) => (
 
 const SOCIALS = [
   { label: "Email", value: "okwumabua25@gmail.com", href: "mailto:okwumabua25@gmail.com" },
-  { label: "Instagram", value: "@raphael.433", href: "https://instagram.com/raphael.433" },
-  { label: "Github", value: "github.com/raphael", href: "https://github.com" },
+  { label: "Instagram", value: "@nona.433", href: "https://instagram.com/nona.433" },
+  { label: "Github", value: "github.com/nona", href: "https://github.com" },
 ];
 
 export default function Contact() {
@@ -436,7 +436,7 @@ export default function Contact() {
 
               <p className="ct-subtext">
                 Whether it's a new project, a quick question, or just a conversation
-                about frontend - Raphael is always open to hearing from you.
+                about frontend - Nona is always open to hearing from you.
               </p>
             </div>
 
@@ -461,7 +461,7 @@ export default function Contact() {
                 ))}
               </div>
 
-              <p className="ct-signoff">Raphael John Okwumabua &mdash; Lagos, Nigeria</p>
+              <p className="ct-signoff">Nona Sieh Codes &mdash; Lagos, Nigeria</p>
             </div>
           </div>
 
@@ -471,7 +471,7 @@ export default function Contact() {
               <div className="ct-success">
                 <div className="ct-success-title">Message Sent.</div>
                 <p className="ct-success-sub">
-                  Thanks for reaching out. Raphael will get back to you as soon as possible.
+                  Thanks for reaching out. Nona will get back to you as soon as possible.
                 </p>
               </div>
             ) : (
@@ -514,7 +514,7 @@ export default function Contact() {
                     id="ct-message"
                     className="ct-textarea"
                     name="message"
-                    placeholder="Tell Raphael what you have in mind..."
+                    placeholder="Tell Nona what you have in mind..."
                     value={form.message}
                     onChange={handleChange}
                     required

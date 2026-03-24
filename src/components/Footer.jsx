@@ -214,7 +214,7 @@ export default function Footer() {
 
           {/* LOGO */}
           <div className="footer-logo-wrap">
-            <div className="footer-logo">RJO</div>
+            <div className="footer-logo">NSC</div>
             <p className="footer-tagline">Building the web, one component at a time.</p>
           </div>
 
@@ -239,7 +239,7 @@ export default function Footer() {
         {/* BOTTOM */}
         <div className="footer-bottom">
           <span className="footer-copy">
-            &copy; {new Date().getFullYear()} Raphael John Okwumabua. All rights reserved.
+            &copy; {new Date().getFullYear()} Nona Sieh Codes. All rights reserved.
           </span>
           <span className="footer-credit">
             Lagos, Nigeria

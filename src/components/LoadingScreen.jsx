@@ -176,7 +176,7 @@ export default function LoadingScreen({ onComplete }) {
         <div ref={rightRef} className="loader-right" />
 
         <div className="loader-content">
-          <div ref={logoRef} className="loader-logo">RJO</div>
+          <div ref={logoRef} className="loader-logo">NSC</div>
           <div ref={tagRef}  className="loader-tagline">
             Building the web, one component at a time.
           </div>

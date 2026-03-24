@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import rjoImg from '../assets/RJO.png';
+import nscImg from '../assets/NSC.png';
 
 /* -- DATA -- */
 const ROWS = [
-  { role: "Frontend Developer", name: "RAPHAEL", band: false },
-  { role: "UI Engineer",        name: "JOHN",    band: false },
-  { role: "React Specialist",   name: "OKWUMABUA", band: true },
+  { role: "Frontend Developer", name: "NONA", band: false },
+  { role: "UI Engineer",        name: "SIEH",    band: false },
+  { role: "React Specialist",   name: "CODES", band: true },
 ];
 
 const STACK = ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"];
@@ -331,14 +331,14 @@ export default function Hero() {
 
         {/* MOBILE PORTRAIT - top left, mobile only */}
         <div className="hero-mobile-portrait">
-          <img src={rjoImg} alt="Raphael portrait" />
-          <div className="hero-mobile-portrait-caption">RJO</div>
+          <img src={nscImg} alt="Nona portrait" />
+          <div className="hero-mobile-portrait-caption">NSC</div>
         </div>
 
         {/* META */}
         <div className="hero-meta h-up" style={{ animationDelay: "0.2s" }}>
           <p className="hero-meta-index">[ 01 ] Featured</p>
-          <p className="hero-meta-name">Raphael J. Okwumabua</p>
+          <p className="hero-meta-name">Nona S. Codes</p>
           <ul className="hero-stack">
             {STACK.map((s, i) => (
               <li key={s} className={i === activeStack ? "active" : ""}>{s}</li>
@@ -349,7 +349,7 @@ export default function Hero() {
         {/* IMAGE CARD */}
         <div className="hero-image h-up" style={{ animationDelay: "0.45s" }}>
           <div className="hero-image-fill">
-            <span className="hero-image-initials">RJO</span>
+            <span className="hero-image-initials">NSC</span>
             <div className="hero-image-caption">Frontend Dev - Lagos</div>
           </div>
         </div>
@@ -358,8 +358,8 @@ export default function Hero() {
         <div className="hero-names">
           {ROWS.map((row, i) => {
             let nameStyle = {};
-            if (row.name === "RAPHAEL") nameStyle = { marginLeft: "48px" };
-            if (row.name === "OKWUMABUA") nameStyle = { marginLeft: "32px" };
+            if (row.name === "NONA") nameStyle = { marginLeft: "48px" };
+            if (row.name === "CODES") nameStyle = { marginLeft: "32px" };
             return (
               <div
                 key={row.name}

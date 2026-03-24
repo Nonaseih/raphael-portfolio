@@ -326,7 +326,7 @@ export default function Navbar() {
         className={`nb${scrolled ? " scrolled" : ""}${menuOpen ? " menu-open" : ""}`}
       >
         <div className="nb-inner">
-          <a href="#hero" className="nb-logo">RJO</a>
+          <a href="#hero" className="nb-logo">NSC</a>
 
           <ul className="nb-links">
             {links.map((l) => (
@@ -376,7 +376,7 @@ export default function Navbar() {
         <ul className="nb-mobile-socials">
           <li><a href="mailto:okwumabua25@gmail.com" onClick={close}>Email</a></li>
           <li><a href="tel:+2348165043433" onClick={close}>+234 816 504 3433</a></li>
-          <li><a href="https://instagram.com/raphael.433" target="_blank" rel="noreferrer" onClick={close}>Instagram</a></li>
+          <li><a href="https://instagram.com/nona.433" target="_blank" rel="noreferrer" onClick={close}>Instagram</a></li>
           <li><a href="https://github.com" target="_blank" rel="noreferrer" onClick={close}>Github</a></li>
         </ul>
       </div>

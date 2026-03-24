@@ -1,4 +1,4 @@
-import RJOPCImg from '../assets/RJOPC.png';
+import NSCPCImg from '../assets/NSCPC.png';
 const styles = `
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap');
 
@@ -261,7 +261,7 @@ const About = () => {
         {/* IMAGE */}
         <div className="about-img">
           <div className="about-img-inner">
-            <img src={RJOPCImg} alt="RJOPC portrait" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '0', position: 'relative', zIndex: 1 }} />
+              <img src={NSCPCImg} alt="NSCPC portrait" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '0', position: 'relative', zIndex: 1 }} />
           </div>
         </div>
 
@@ -291,7 +291,7 @@ const About = () => {
           </p>
 
           <p className="about-bio a-up" style={{ animationDelay: "0.4s" }}>
-            I'm Raphael John Okwumabua — I specialise in turning designs into
+            I'm Nona Sieh Codes — I specialise in turning designs into
             responsive, production-ready React applications. Whether it's a
             landing page, a dashboard, or a full product, I care about every
             pixel and every millisecond of load time. Clean code, honest
