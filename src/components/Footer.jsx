@@ -185,9 +185,9 @@ const NAV_LINKS = [
 ];
 
 const SOCIALS = [
-  { label: "Email", href: "mailto:okwumabua25@gmail.com", Icon: Mail },
-  { label: "Instagram", href: "https://instagram.com/raphael.433", Icon: Instagram },
-  { label: "Github", href: "https://github.com", Icon: Github },
+  { label: "Email", href: "mailto:NonaSiehCode@gmail.com", Icon: Mail },
+  { label: "Instagram", href: "https://instagram.com/nonasieh", Icon: Instagram },
+  { label: "Github", href: "https://github.com/Nonaseih", Icon: Github },
 ];
 
 export default function Footer() {

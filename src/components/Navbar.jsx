@@ -359,7 +359,7 @@ export default function Navbar() {
           </ul>
 
           <div className="nb-right">
-            <a href="mailto:okwumabua25@gmail.com" className="nb-cta">Hire Me</a>
+            <a href="mailto:NonaSiehCode@gmail.com" className="nb-cta">Hire Me</a>
             <button
               className={`nb-burger${menuOpen ? " open" : ""}`}
               onClick={() => setMenuOpen((p) => !p)}
@@ -391,10 +391,10 @@ export default function Navbar() {
           ))}
         </ul>
         <ul className="nb-mobile-socials">
-          <li><a href="mailto:okwumabua25@gmail.com" onClick={close}>Email</a></li>
-          <li><a href="tel:+2348165043433" onClick={close}>+234 816 504 3433</a></li>
-          <li><a href="https://instagram.com/nona.433" target="_blank" rel="noreferrer" onClick={close}>Instagram</a></li>
-          <li><a href="https://github.com" target="_blank" rel="noreferrer" onClick={close}>Github</a></li>
+          <li><a href="mailto:NonaSiehCode@gmail.com" onClick={close}>Email</a></li>
+          {/* Phone number removed as requested */}
+          <li><a href="https://instagram.com/nonasieh" target="_blank" rel="noreferrer" onClick={close}>Instagram</a></li>
+          <li><a href="https://github.com/Nonaseih" target="_blank" rel="noreferrer" onClick={close}>Github</a></li>
         </ul>
       </div>
     </>

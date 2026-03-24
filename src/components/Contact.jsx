@@ -381,9 +381,9 @@ const ArrowIcon = ({ color = "var(--brown)" }) => (
 );
 
 const SOCIALS = [
-  { label: "Email", value: "okwumabua25@gmail.com", href: "mailto:okwumabua25@gmail.com" },
-  { label: "Instagram", value: "@nona.433", href: "https://instagram.com/nona.433" },
-  { label: "Github", value: "github.com/nona", href: "https://github.com" },
+  { label: "Email", value: "NonaSiehCode@gmail.com", href: "mailto:NonaSiehCode@gmail.com" },
+  { label: "Instagram", value: "@nonasieh", href: "https://instagram.com/nonasieh" },
+  { label: "Github", value: "github.com/Nonaseih", href: "https://github.com/Nonaseih" },
 ];
 
 export default function Contact() {

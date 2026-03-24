@@ -377,10 +377,10 @@ export default function Hero() {
         <div className="hero-bottom h-up" style={{ animationDelay: "0.5s" }}>
           <span className="hero-tagline">Building the web, one component at a time.</span>
           <ul className="hero-socials">
-            <li><a href="mailto:okwumabua25@gmail.com">Email</a></li>
-            <li><a href="https://instagram.com/raphael.433" target="_blank" rel="noreferrer">Instagram</a></li>
-            <li><a href="https://github.com" target="_blank" rel="noreferrer">Github</a></li>
-            <li><a href="tel:+2348160262326">Call No.</a></li>
+            <li><a href="mailto:NonaSiehCode@gmail.com">Email</a></li>
+            <li><a href="https://instagram.com/nonasieh" target="_blank" rel="noreferrer">Instagram</a></li>
+            <li><a href="https://github.com/Nonaseih" target="_blank" rel="noreferrer">Github</a></li>
+            {/* Phone number removed as requested */}
           </ul>
         </div>
 
